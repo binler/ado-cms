@@ -17,4 +17,16 @@
 
 const Route = use('Route')
 
+Route.group('authenticate-social', function(){
+  Route.get('github/login', 'LoginController.githubRedirect')
+  Route.get('github/authenticated', 'LoginController.githubHandleCallback')
+  Route.get('test', 'LoginController.test')
+}).prefix('social')
+
+Route.group('adminv1', function(){
+  Route.get('/', function * (request, response){
+
+  })
+}).prefix('admin')
+
 Route.any('*', 'NuxtController.render')

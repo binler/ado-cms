@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "adonis-ace": "^3.0.6",
+    "adonis-ally": "^1.1.2",
     "adonis-auth": "^1.0.5",
     "adonis-commands": "^2.1.5",
     "adonis-fold": "^3.0.3",
@@ -26,6 +27,7 @@
     "axios": "^0.16.2",
     "buefy": "^0.4.2",
     "cross-env": "^3.1.4",
+    "mysql": "^2.13.0",
     "nuxt": "latest",
     "standard": "^8.6.0",
     "youch": "^2.0.4"
