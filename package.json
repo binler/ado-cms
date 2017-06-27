@@ -7,10 +7,10 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "serve:dev": "npm run dev",
+    "start": "npm run dev",
     "dev": "nodemon --watch app --watch bootstrap --watch config --watch .env -x node server.js",
     "build": "node ./ace nuxtbuild",
-    "start": "cross-env NODE_ENV=production node server.js",
+    "starts": "cross-env NODE_ENV=production node server.js",
     "precommit": "npm run lint",
     "lint": "standard && eslint --ext .js,.vue resources/"
   },
